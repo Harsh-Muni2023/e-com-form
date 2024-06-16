@@ -12,6 +12,7 @@
 </head>
 <body>
     <section>
+        <i class='bx bx-moon' id="dark"></i>
         <div class="logo">
             <img src="https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-logo-m-png-3.png">
         </div>
@@ -35,5 +36,20 @@
             </div>
         </div>
     </section>
+    <script> 
+        let input1 = document.getElementById('myinp1');
+        let input2 = document.getElementById('myinp2');
+        let input3 = document.getElementById('myinp3');
+        let input4 = document.getElementById('myinp4');
+        let elem = document.body;
+        let dark = document.getElementById('dark');
+        dark.onclick = () => {
+            elem.classList.toggle("dark-mode");
+            input1.style.color = 'white';
+            input2.style.color = 'white';
+            input3.style.color = 'white';
+            input4.style.color = 'white';
+        }
+    </script>
 </body>
 </html>
