@@ -120,9 +120,10 @@ input:focus{
     font-size: 26px;
     }
     input{
-        margin: 19px 10px;
+        margin: 10px 9px;
         padding: 10px 10px;
-        width: 23ch;
+        width: 30ch;
+        font-size: 8px;
     }
     .form{
         flex-wrap: nowrap;
@@ -133,36 +134,53 @@ input:focus{
     }
     .one p,.two p{
         padding: 7px 21px 7px 7px;
-        font-size: 11px;
+        font-size: 7px;
     }
     .one .bx,.two .bx{
         font-size:14px;
     }
     button{
-        margin: 16px 29px;
+        margin: 9px 27px;
+        font-size: 11px;
     }
     .one p{
         padding: 7px 32px 7px 7px;
+    }
+    .form::before{
+        left: 51%;
+        width: 1px;
+        height: 30%;
+    }
+    .right{
+        top: 79px;
+        left: 4%;
     }
 
 }
 @media only screen and (max-width: 437px) {
     .one p,.two p{
-        font-size:8px;
+        font-size:7px;
     }
     .one .bx, .two .bx {
         font-size: 11px;
     }
     input {
-        margin: 19px 9px;
-        width: 19ch;
+    margin: 10px 9px;
+        width: 30ch;
+        font-size: 8px;
     }
     button {
-        margin: 16px 14px;
-        font-size: 14px;
+        margin: 9px 27px;
+        font-size: 11px;
     }
     .form::before{
         left: 51%;
+        width: 1px;
+        height: 30%;
+    }
+    .right{
+    top: 79px;
+    left: 4%;
     }
 }
 .bx-moon{
