@@ -146,4 +146,23 @@ input:focus{
     }
 
 }
+@media only screen and (max-width: 437px) {
+    .one p,.two p{
+        font-size:8px;
+    }
+    .one .bx, .two .bx {
+        font-size: 11px;
+    }
+    input {
+        margin: 19px 9px;
+        width: 19ch;
+    }
+    button {
+        margin: 16px 14px;
+        font-size: 14px;
+    }
+    .form::before{
+        left: 51%;
+    }
+}
 
